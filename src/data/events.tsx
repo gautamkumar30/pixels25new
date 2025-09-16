@@ -99,6 +99,19 @@ const shipwreckRules = [
   "Kindly check our website for the latest changes in the event.",
 ];
 
+const memeCreationRules = [
+  "Open to students from all engineering colleges.",
+  "Be original, creative & engaging.",
+  "Tamil / English allowed.",
+  "No vulgar/offensive content.",
+  "Kindly check our website for the latest changes in the event.",
+];
+
+const memeCreationTerms = [
+  "Teams must report before 9:00 AM at the registration desk on event day.",
+  "The organizing committee reserves the right to modify rules or schedules if necessary.",
+];
+
 export const events: Event[] = [
   {
     id: "ideathon",
@@ -256,8 +269,8 @@ export const events: Event[] = [
     tagline: "Laugh. Create. Share.",
     duration: "9:00 AM - 3:00 PM",
     teamSize: "2 members",
-    rules: commonRules,
-    terms: commonTerms,
+    rules: [...commonRules, ...memeCreationRules],
+    terms: [...commonTerms, ...memeCreationTerms],
     timeline: [
       {
         phase: "Event",
@@ -268,6 +281,6 @@ export const events: Event[] = [
     coordinators: [
       { name: "Ganapathi N", year: "3rd Year CSE", phone: "+91 70102 47177" },
     ],
-    registrationLink: "https://forms.google.com/meme-creation-registration",
+    registrationLink: "https://forms.gle/pC3Mmxge8vBccfZi7",
   },
 ];

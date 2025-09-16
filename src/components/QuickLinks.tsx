@@ -57,7 +57,7 @@ const QuickLinks: React.FC = () => {
                   <Download className="w-6 h-6 text-blue-600 mr-4" />
                   <div>
                     <h4 className="font-semibold text-slate-800">
-                      Download Brochure
+                      Download Poster
                     </h4>
                     <p className="text-sm text-slate-600">
                       Complete event information and schedule
