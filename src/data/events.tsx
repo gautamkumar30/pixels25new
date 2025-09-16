@@ -49,6 +49,56 @@ const commonTerms = [
   "Coordinators may adjust the number of questions depending on time.",
 ];
 
+const ideatonRules = [
+  "Each team must have 2–4 members only.",
+  "Teams must submit an abstract (max 250–300 words) within the deadline.",
+  "Abstracts/ideas must be original and not copied from existing projects.",
+  "Any form of plagiarism or previously published work will result in disqualification.",
+  "Use of AI/automatic content generators for idea submission is not allowed.",
+  "Each team will get 7–8 minutes for presentation followed by 2–3 minutes Q&A.",
+  "Presentations must be made in English (unless permitted otherwise by the coordinators).",
+  "Teams should ensure their laptops/pen drives are virus-free and files are compatible (PPT/PDF).",
+  "Internet usage during the event is allowed only if specified by coordinators.",
+  "Teams must maintain discipline and professionalism throughout the event.",
+  "Evaluation will be based on: Innovation & Creativity, Feasibility & Practicality, Technical Implementation, Presentation & Communication.",
+  "If a team or any team member is unable to attend the venue for a valid reason (for example, for out-of-state students), they may still participate by emailing their team details and abstract to pixels@saec.ac.in. Shortlisted teams will be notified by email and may be given the opportunity to present their idea online.",
+];
+
+const ideathonTerms = [
+  "Shortlisted teams must report before 9:00 AM at the registration desk on event day.",
+  "Teams must carry their presentation materials (PPT/Prototype) in a pen drive or upload in advance as instructed.",
+  "Participants should be dressed in a formal/professional manner during presentations.",
+  "The organizing committee reserves the right to modify rules or schedules if necessary.",
+];
+
+const technicalQuizRules = [
+  "Each team must have exactly 2 members.",
+  "Use of AI or other gadgets is prohibited.",
+  "Participants must bring their mobile phone with good internet connectivity.",
+];
+
+const technicalQuizTerms = [
+  "Participants should confirm their participation on the event day before 9 am at the registration desk.",
+  "Participants should be dressed in a decent/Professional manner.",
+  "Kindly check our website for the latest changes in the event.",
+];
+
+const shipwreckRules = [
+  "This can be an individual or dual participation event.",
+  "Each participant/team will be given a character (celebrity, historical figure, fictional role, etc.).",
+  "You must defend your survival as that character and convince why you deserve the spot on the lifeboat.",
+  "Preparation time will be given before you present your role.",
+  "Time limit: 2–3 minutes per participant.",
+  "Language: English/Tamil (depending on comfort, but be clear & convincing).",
+  "Humor, creativity, and confidence are highly encouraged.",
+  "In case of a tie/uncertainty, the audience’s vote will decide the winner.",
+  "Vulgar or offensive content will lead to disqualification.",
+  "No Registration Fee – participation is completely free.",
+  "Participants should confirm their participation on the event day before 9 am at the registration desk.",
+  "Participants should be dressed in a decent/Professional manner.",
+  "Kindly check our website for the latest changes in the event.",
+];
+
 export const events: Event[] = [
   {
     id: "ideathon",
@@ -61,9 +111,9 @@ export const events: Event[] = [
     icon: <Brain className="w-6 h-6 text-indigo-600" />,
     tagline: "Think. Create. Innovate.",
     duration: "9:00 AM - 3:00 PM",
-    teamSize: "2 members",
-    rules: commonRules,
-    terms: commonTerms,
+    teamSize: "2-4 members",
+    rules: [...commonRules, ...ideatonRules],
+    terms: [...commonTerms, ...ideathonTerms],
     timeline: [
       {
         phase: "Event",
@@ -137,8 +187,8 @@ export const events: Event[] = [
     tagline: "Quiz. Compete. Excel.",
     duration: "9:00 AM - 3:00 PM",
     teamSize: "2 members",
-    rules: commonRules,
-    terms: commonTerms,
+    rules: [...commonRules, ...technicalQuizRules],
+    terms: [...commonTerms, ...technicalQuizTerms],
     timeline: [
       {
         phase: "Event",
@@ -176,7 +226,7 @@ export const events: Event[] = [
     tagline: "Convince. Survive. Win.",
     duration: "9:00 AM - 3:00 PM",
     teamSize: "2 members",
-    rules: commonRules,
+    rules: [...commonRules, ...shipwreckRules],
     terms: commonTerms,
     timeline: [
       {
