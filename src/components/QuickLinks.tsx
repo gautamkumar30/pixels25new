@@ -4,34 +4,27 @@ import { Download, MapPin, Phone, Mail, Users, User } from "lucide-react";
 const QuickLinks: React.FC = () => {
   const coordinators = [
     {
-      name: "Arjun Sharma",
+      name: "Gautam Kumar G",
       role: "Overall Coordinator",
       year: "4th Year CSE",
       phone: "+91 98765 43210",
-      email: "arjun.sharma@college.edu",
+      email: "2216012@saec.ac.in",
     },
     {
-      name: "Priya Patel",
-      role: "Technical Head",
-      year: "3rd Year CSE",
-      phone: "+91 98765 43211",
-      email: "priya.patel@college.edu",
-    },
-    {
-      name: "Rahul Kumar",
-      role: "Events Coordinator",
-      year: "3rd Year CSE",
-      phone: "+91 98765 43212",
-      email: "rahul.kumar@college.edu",
+      name: "Balasubramaniya V",
+      role: "Overall Coordinator",
+      year: "4th Year CSE",
+      phone: "+91 90433 87628",
+      email: "2216005@saec.ac.in",
     },
   ];
 
   const facultyCoordinator = {
-    name: "Dr. Suresh Nair",
+    name: "Dr. Thilagavathi",
     role: "Faculty In-charge",
     department: "Professor, CSE Department",
-    phone: "+91 98765 43200",
-    email: "suresh.nair@college.edu",
+    phone: "+91 97895 04545",
+    email: "thilagavathi@saec.ac.in",
   };
 
   return (
@@ -90,17 +83,17 @@ const QuickLinks: React.FC = () => {
                       Department of CSE
                     </h4>
                     <p className="text-slate-600">
-                      XYZ Engineering College
+                      S.A. Engineering College
                       <br />
-                      123 Tech Street, Innovation City
+                      Poonamallee, Avadi Road Veeraraghavapuram,
                       <br />
-                      State - 560001
+                      Thiruverkadu, Tamil Nadu - 600077
                     </p>
                   </div>
                 </div>
                 <div className="bg-white rounded-lg overflow-hidden shadow-sm">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.8663373022377!2d77.59456931478165!3d13.026472217229966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDAyJzM5LjMiTiA3N8KwMzUnNTAuNCJF!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.51782047494!2d80.10860181088027!3d13.066335012740641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5261f03d683eef%3A0x435901811125ddfb!2sS.A.%20Engineering%20college!5e0!3m2!1sen!2sin!4v1757957109640!5m2!1sen!2sin"
                     width="100%"
                     height="200"
                     style={{ border: 0 }}

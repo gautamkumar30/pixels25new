@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { ArrowRight } from 'lucide-react';
-import { events } from '../data/events';
+import React from "react";
+import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
+import { events } from "../data/events";
 
 const EventsOverview: React.FC = () => {
   return (
@@ -12,8 +12,8 @@ const EventsOverview: React.FC = () => {
             Event Lineup
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Dive into our carefully curated events designed to challenge your skills, 
-            spark creativity, and showcase your technical expertise.
+            Dive into our carefully curated events designed to challenge your
+            skills, spark creativity, and showcase your technical expertise.
           </p>
         </div>
 
@@ -29,18 +29,21 @@ const EventsOverview: React.FC = () => {
                     {event.icon}
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-slate-800">{event.name}</h3>
+                    <h3 className="text-xl font-bold text-slate-800">
+                      {event.name}
+                    </h3>
                     <p className="text-sm text-slate-500">{event.category}</p>
                   </div>
                 </div>
-                
+
                 <p className="text-slate-600 mb-6 leading-relaxed">
                   {event.shortDescription}
                 </p>
-                
+
                 <div className="flex items-center justify-between">
                   <div className="text-sm text-slate-500">
-                    <span className="font-medium">{event.duration}</span> • <span>{event.teamSize}</span>
+                    <span className="font-medium">{event.duration}</span> •{" "}
+                    <span>{event.teamSize}</span>
                   </div>
                   <Link
                     to={`/event/${event.id}`}
@@ -62,7 +65,7 @@ const EventsOverview: React.FC = () => {
               Ready to Showcase Your Skills?
             </h3>
             <p className="text-lg text-slate-600 mb-8">
-              Join hundreds of talented participants from across the region. 
+              Join hundreds of talented participants from across the region.
               Register now and be part of this incredible technical journey.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -72,13 +75,13 @@ const EventsOverview: React.FC = () => {
                 rel="noopener noreferrer"
                 className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-3 rounded-lg transition-colors inline-flex items-center justify-center"
               >
-                Register for All Events
+                Register for an event
                 <ArrowRight className="w-5 h-5 ml-2" />
               </a>
               <button
                 onClick={() => {
-                  const element = document.getElementById('contact');
-                  if (element) element.scrollIntoView({ behavior: 'smooth' });
+                  const element = document.getElementById("contact");
+                  if (element) element.scrollIntoView({ behavior: "smooth" });
                 }}
                 className="border-2 border-slate-300 hover:border-slate-400 text-slate-700 hover:text-slate-800 font-semibold px-8 py-3 rounded-lg transition-colors"
               >
