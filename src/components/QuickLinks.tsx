@@ -24,7 +24,7 @@ const QuickLinks: React.FC = () => {
     role: "Faculty In-charge",
     department: "Professor, CSE Department",
     phone: "+91 97895 04545",
-    email: "thilagavathi@saec.ac.in",
+    email: "thilagavathin@saec.ac.in",
   };
 
   return (
@@ -49,7 +49,7 @@ const QuickLinks: React.FC = () => {
               </h3>
               <div className="space-y-4">
                 <a
-                  href="/brochure/pixels25-brochure.pdf"
+                  href="/posters/symposium-poster.png"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center p-4 bg-slate-50 hover:bg-slate-100 rounded-lg transition-colors group"

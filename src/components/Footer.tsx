@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a
-                  href="/brochure/pixels25-brochure.pdf"
+                  href="/posters/symposium-poster.png"
                   target="_blank"
                   className="text-slate-400 hover:text-white transition-colors"
                 >
@@ -80,10 +80,10 @@ const Footer: React.FC = () => {
               <div className="flex items-center space-x-2">
                 <Mail className="w-5 h-5 text-blue-500" />
                 <a
-                  href="mailto:pixels25@saec.ac.in"
+                  href="mailto:pixels@saec.ac.in"
                   className="text-slate-400 hover:text-white transition-colors"
                 >
-                  pixels25@saec.ac.in
+                  pixels@saec.ac.in
                 </a>
               </div>
               <p className="text-slate-400 text-sm">

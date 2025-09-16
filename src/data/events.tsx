@@ -66,14 +66,9 @@ export const events: Event[] = [
     terms: commonTerms,
     timeline: [
       {
-        phase: "Idea Submission",
-        description: "Teams submit their innovative ideas.",
-        duration: "30 minutes",
-      },
-      {
-        phase: "Pitch Presentation",
-        description: "Teams present their ideas to judges.",
-        duration: "1.5 hours",
+        phase: "Event",
+        description: "-",
+        duration: "3 hours",
       },
     ],
     coordinators: [
@@ -105,14 +100,9 @@ export const events: Event[] = [
     terms: commonTerms,
     timeline: [
       {
-        phase: "Round 1",
-        description: "Basic debugging tasks.",
-        duration: "30 minutes",
-      },
-      {
-        phase: "Round 2",
-        description: "Advanced debugging challenges.",
-        duration: "1 hour",
+        phase: "Event",
+        description: "-",
+        duration: "3 hours",
       },
     ],
     coordinators: [
@@ -149,14 +139,9 @@ export const events: Event[] = [
     terms: commonTerms,
     timeline: [
       {
-        phase: "Preliminary Round",
-        description: "Objective-type technical questions.",
-        duration: "30 minutes",
-      },
-      {
-        phase: "Final Round",
-        description: "Interactive quiz with buzzer questions.",
-        duration: "30 minutes",
+        phase: "Event",
+        description: "-",
+        duration: "3 hours",
       },
     ],
     coordinators: [
@@ -193,14 +178,9 @@ export const events: Event[] = [
     terms: commonTerms,
     timeline: [
       {
-        phase: "Character Assignment",
-        description: "Roles assigned to participants.",
-        duration: "30 minutes",
-      },
-      {
-        phase: "Debate",
-        description: "Convince the judges why you deserve to survive.",
-        duration: "1.5 hours",
+        phase: "Event",
+        description: "-",
+        duration: "3 hours",
       },
     ],
     coordinators: [
@@ -228,14 +208,9 @@ export const events: Event[] = [
     terms: commonTerms,
     timeline: [
       {
-        phase: "Theme Release",
-        description: "Participants receive meme topics.",
-        duration: "15 minutes",
-      },
-      {
-        phase: "Meme Creation",
-        description: "Teams design and submit their memes.",
-        duration: "45 minutes",
+        phase: "Event",
+        description: "-",
+        duration: "3 hours",
       },
     ],
     coordinators: [
