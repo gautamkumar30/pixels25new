@@ -161,7 +161,7 @@ export const events: Event[] = [
         phone: "+91 63792 69759",
       },
     ],
-    registrationLink: "https://forms.google.com/technical-quiz-registration",
+    registrationLink: "https://forms.gle/sfmRFrLP8Gepdtoe7",
   },
   {
     id: "shipwreck",

@@ -7,7 +7,7 @@ const QuickLinks: React.FC = () => {
       name: "Gautam Kumar G",
       role: "Overall Coordinator",
       year: "4th Year CSE",
-      phone: "+91 98765 43210",
+      phone: "+91 90808 72119",
       email: "2216012@saec.ac.in",
     },
     {
