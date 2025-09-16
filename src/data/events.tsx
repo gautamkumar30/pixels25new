@@ -83,7 +83,8 @@ export const events: Event[] = [
         phone: "+91 89256 44553",
       },
     ],
-    registrationLink: "https://forms.google.com/ideathon-registration",
+    registrationLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSf423XVfNwoVnasvt4e5oI7q00jwevn-wXUmKz4YnXm5hUyPg/viewform?usp=dialog",
   },
   {
     id: "code-debugging",
@@ -122,7 +123,8 @@ export const events: Event[] = [
         phone: "+91 93421 75183",
       },
     ],
-    registrationLink: "https://forms.google.com/code-debugging-registration",
+    registrationLink:
+      "https://docs.google.com/forms/d/e/1FAIpQLSdzj25ELS0xx5qGcOAcLyKx_8Ibtc-sFUMuKjaf-fPshY_udA/viewform",
   },
   {
     id: "technical-quiz",
