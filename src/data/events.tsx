@@ -112,6 +112,19 @@ const memeCreationTerms = [
   "The organizing committee reserves the right to modify rules or schedules if necessary.",
 ];
 
+const codeDebuggingRules = [
+  "Students are encouraged to bring their own laptops.",
+  "Each team must consist of two members.",
+  "Students must report at the venue sharply by 9:00 AM to confirm their slot.",
+  "Students must carry valid College ID and follow the proper dress code.",
+  "Participants should bring their own resources (including the compiler and internet connections).",
+  "Use of any AI tools is strictly prohibited.",
+];
+
+const codeDebuggingTerms = [
+  "For any further information about the symposium and the event kindly check that in this official symposium website.",
+];
+
 export const events: Event[] = [
   {
     id: "ideathon",
@@ -160,8 +173,8 @@ export const events: Event[] = [
     tagline: "Debug. Fix. Win.",
     duration: "9:00 AM - 3:00 PM",
     teamSize: "2 members",
-    rules: commonRules,
-    terms: commonTerms,
+    rules: [...commonRules, ...codeDebuggingRules],
+    terms: [...commonTerms, ...codeDebuggingTerms],
     timeline: [
       {
         phase: "Event",
@@ -186,8 +199,7 @@ export const events: Event[] = [
         phone: "+91 93421 75183",
       },
     ],
-    registrationLink:
-      "https://docs.google.com/forms/d/e/1FAIpQLSdzj25ELS0xx5qGcOAcLyKx_8Ibtc-sFUMuKjaf-fPshY_udA/viewform",
+    registrationLink: "https://forms.gle/1dRCtfphU7ffKt6R6",
   },
   {
     id: "technical-quiz",
