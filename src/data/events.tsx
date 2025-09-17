@@ -250,7 +250,7 @@ export const events: Event[] = [
     icon: <Anchor className="w-6 h-6 text-teal-600" />,
     tagline: "Convince. Survive. Win.",
     duration: "9:00 AM - 3:00 PM",
-    teamSize: "2 members",
+    teamSize: "1-2 members",
     rules: [...commonRules, ...shipwreckRules],
     terms: commonTerms,
     timeline: [
@@ -268,7 +268,7 @@ export const events: Event[] = [
         phone: "+91 63801 41402",
       },
     ],
-    registrationLink: "https://forms.google.com/shipwreck-registration",
+    registrationLink: "https://forms.gle/MUvKSkz8BLFdS7Dh9",
   },
   {
     id: "meme-creation",
