@@ -263,6 +263,11 @@ export const events: Event[] = [
     coordinators: [
       { name: "Jayanthan S", year: "2nd Year CSE", phone: "+91 80726 86423" },
       {
+        name: "Raehan P B",
+        year: "2nd Year CSE",
+        phone: "+91 73586 85337",
+      },
+      {
         name: "Swetha Shree S",
         year: "4th Year CSE",
         phone: "+91 63801 41402",
