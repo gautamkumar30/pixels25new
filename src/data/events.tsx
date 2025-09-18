@@ -199,7 +199,7 @@ export const events: Event[] = [
         phone: "+91 93421 75183",
       },
     ],
-    registrationLink: "https://forms.gle/1dRCtfphU7ffKt6R6",
+    registrationLink: "https://forms.gle/tWv6fYaMmFFGhm1CA",
   },
   {
     id: "technical-quiz",
