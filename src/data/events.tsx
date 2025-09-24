@@ -196,7 +196,7 @@ export const events: Event[] = [
       {
         name: "Kirthika R",
         year: "4th Year CSE",
-        phone: "+91 93421 75183",
+        phone: "+91 90808 72119",
       },
     ],
     registrationLink: "https://forms.gle/tWv6fYaMmFFGhm1CA",
